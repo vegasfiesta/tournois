@@ -1,0 +1,215 @@
+{
+  "settings": {
+    "name": "tournois",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 5,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "gallery1",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/new-logo-2000x800-800x320.png",
+                "image": "@PROJECT_PATH@/assets/images/new-logo-2000x800.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/new-logo-2000x800-800x320.png",
+                "image": "@PROJECT_PATH@/assets/images/new-logo-2000x800.png",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "3",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#e1e3ff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-3",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "text-align": "center",
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
+              "color": "#666666"
+            },
+            "I": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "left"
+            },
+            "TD": {
+              "font-size": "25px",
+              "text-align": "center",
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+            },
+            "TH": {
+              "text-align": "center"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-1",
+          "_params": {
+            "rowСount": "20",
+            "colCount": "3",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#e1e3ff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#e1e3ff",
+            "showTitle": true,
+            "showSearch": false
+          },
+          "title": "TABLEAU DU CLASSEMENT INTERMEDIAIRE&nbsp;<br>",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Login</th><th>Pays</th><th>Jeux Favori</th></tr></thead><tbody><tr><td>szimberg</td><td>UK</td><td>Rise of Poseidon</td></tr><tr><td>giovanni.corrado</td><td>Italie</td><td>Gold Rush</td></tr><tr><td>billym</td><td>France</td><td>Ten Times Wins</td></tr><tr><td>melaniesfan</td><td>France</td><td>Gold Rush</td></tr><tr><td>bernardfr</td><td>South Africa</td><td>MegaWins</td></tr><tr><td>margelala</td><td>France</td><td>Deuces Wild</td></tr><tr><td>freddo85</td><td>France</td><td>Catsino</td></tr><tr><td>goldmatch</td><td>UK</td><td>Five Times Wins</td></tr><tr><td>frapadingue</td><td>France</td><td>Diamond Dragon</td></tr><tr><td>balilkhoudry</td><td>Egypte</td><td>Arabian Tales</td></tr><tr><td>ahmed55</td><td>France</td><td>Diamond Dragon</td></tr><tr><td>pierreboniface</td><td>France</td><td>Love and Money</td></tr><tr><td>magalie69</td><td>France</td><td>Golden Gorilla</td></tr><tr><td>grosjean</td><td>France</td><td>Love and Money</td></tr><tr><td>iboutet</td><td>France</td><td>Gold Rush</td></tr><tr><td>lorainrocha</td><td>South Africa</td><td>MegaWins</td></tr><tr><td>caniyo4</td><td>France</td><td>Big Cash Win</td></tr><tr><td>maucet</td><td>Italie</td><td>Five Times Wins</td></tr><tr><td>scastelo</td><td>Portugal</td><td>Catsino</td></tr><tr><td>fcolonna</td><td>Italie</td><td>Love and Money</td></tr></tbody>"
+        },
+        {
+          "_styles": {
+            "DIV": {
+              "font-size": "36px",
+              "color": "#666666"
+            },
+            "H3": {
+              "font-size": "16px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters2",
+          "_anchor": "counters2-4",
+          "_params": {
+            "showSubtitles": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#e1e3ff",
+            "showTitles": false,
+            "showText": false
+          },
+          "title": "View Our Statistic",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
+          "number1": "68000",
+          "subtitle1": "euros a gagner",
+          "number2": "380",
+          "subtitle2": "PARTICIPANTS",
+          "number3": "250",
+          "subtitle3": "JEUX",
+          "number4": "18000",
+          "subtitle4": "EUROS PREMIER PRIX"
+        }
+      ]
+    }
+  }
+}
